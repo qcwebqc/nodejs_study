@@ -11,5 +11,6 @@ ce.on('test', () => {
 });
 
 setInterval(() => {
+    // 触发事件函数
     ce.emit('test');
 }, 500);
